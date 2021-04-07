@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+    <meta charset='utf-8' />
+    <link href="https://cdn.jsdelivr.net/npm/fullcalendar-scheduler@5.5.1/main.min.css" rel="stylesheet" />
+
+    <script src="https://cdn.jsdelivr.net/npm/fullcalendar-scheduler@5.5.1/main.min.js"></script>
+    <link href='style.css' rel='stylesheet' />
+
+    <title>Using Select2</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+    <!-- Select2 CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.6-rc.0/css/select2.min.css" rel="stylesheet" />
+
+</head>
+
+<body>
+    <div class="jumbotron">
+        <div class="container">
+            <div class="col-md-6">
+                <label>Filter By Teams</label>
+                <select class="teams form-control select2" multiple>
+                    <option value="0">team0</option>
+                    <option value="1">team1</option>
+                    <option value="2">team2</option>
+                </select>
+            </div>
+            <div class="col-md-6">
+                <label>Filter By Stats</label>
+                <select class="stat form-control  select2" multiple>
+                    <option value="0">stat0</option>
+                    <option value="1">stat1</option>
+                    <option value="2">stat2</option>
+                </select>
+            </div>
+        </div>
+    </div>
+
+    <!-- <div id='external-events'>
+        <p>
+            <strong>Draggable Events</strong>
+        </p>
+        <div class='fc-event fc-h-event fc-timeline-event' data-title="James 22" data-mytitle="James1
+        22" data-bgcolor="" data-desc="test description" data-myend="" data-mystart="2021-03-03 10:46:09"
+            data-start="11">James 1</div>
+        <div class='fc-event fc-h-event fc-timeline-event' data-title="James 22" data-mytitle="James1
+        22" data-bgcolor="" data-desc="test description2" data-myend="" data-mystart="2021-03-03 10:46:09"
+            data-start="11">James 2</div>
+        <div class='fc-event fc-h-event fc-timeline-event'>My Event 3</div>
+        <div class='fc-event fc-h-event fc-timeline-event'>My Event 4</div>
+        <div class='fc-event fc-h-event fc-timeline-event'>My Event 5</div>
+        <p>
+            <input type='checkbox' id='drop-remove' />
+            <label for='drop-remove'>remove after drop</label>
+        </p>
+    </div> -->
+    <div id='calendar'></div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!-- Select2 -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.6-rc.0/js/select2.min.js"></script>
+    <script>
+
+    </script>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
